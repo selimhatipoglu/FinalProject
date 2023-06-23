@@ -25,7 +25,7 @@ type NavigationItem = {
 const navigationData: NavigationItem[] = [
   {header:'Products', navigate : 'Products'},
   {header:'Categories', navigate : 'CategoriesScreen'},
-  {header:'Orders', navigate : 'Products'}
+  {header:'ConfigureCategory', navigate : 'ConfigureCategory'}
 ]
 
 const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {

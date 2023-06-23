@@ -3,7 +3,10 @@ export type RootStackParamList = {
     Products: undefined;
     ProductDetail: { item: Product, };
     CategoriesScreen: undefined;
+    ConfigureCategory : {categoryId : number}
+   
   };
+  
   
   export type Product = {
     item?: []
